@@ -127,3 +127,33 @@ section {
     transition: all 0.2s;
     color: #fafaf0;
 }
+
+/* お気に入りのアレコレ */
+.favorite-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.favorite-content {
+    background-color: #fafaf0;
+    width: 245px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 1px solid #474838;
+}
+
+.favorite-icon {
+    width: 60px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.favorite-content-title {
+    text-align: center;
+}
+
+.favorite-list-item {
+    list-style: square;
+}
