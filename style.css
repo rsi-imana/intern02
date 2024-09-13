@@ -189,3 +189,11 @@ section {
 .information-table-head {
     text-align: left;
 }
+
+/* フッター */
+.footer {
+    color: #fafaf0;
+    padding: 20px 0;
+    background-color: #474838;
+    text-align: center;
+}
