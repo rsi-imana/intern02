@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* ヘッダー */
+#header {
+    background-color: #474838;
+    margin-bottom: 80px;
+}
+
+h1 {
+    color: #fafaf0;
+}
+
+.header-wrapper {
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.header-list {
+    display: flex;
+    gap: 20px;
+}
+
+.header-list-link {
+    color: #fafaf0;
+}
