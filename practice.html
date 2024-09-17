@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css">
+    <link rel="stylesheet" href="practice.css">
+    <title>ブロック要素とインライン要素</title>
+</head>
+
+<body>
+    <h1>ブロック要素とインライン要素の特徴</h1>
+
+    <!-- 特徴１：配置 -->
+    <section>
+        <h2>特徴１：配置</h2>
+        <!-- ブロック要素 -->
+        <p class="block">ブロック要素のpタグ</p>
+        <h1 class="block">ブロック要素のh1タグ</h1>
+
+        <!-- インライン要素 -->
+        <a class="inline" href="">インライン要素のaタグ</a>
+        <span class="inline">インライン要素のspanタグ</span>
+    </section>
+
+    <!-- 特徴２：幅と高さ -->
+    <section>
+        <h2>特徴２：幅（width）と高さ（height）の有効性</h2>
+        <!-- ブロック要素 -->
+        <p class="block feature02">ブロック要素のpタグ</p>
+        <div class="block feature02">ブロック要素のdivタグ</div>
+
+        <!-- インライン要素 -->
+        <a class="inline feature02" href="">インライン要素のaタグ</a>
+        <span class="inline feature02">インライン要素のspanタグ</span>
+        <img class="inline feature02" src="" alt="インライン要素のimgタグは例外">
+    </section>
+
+    <!-- 特徴３：marginとpaddingの有効性 -->
+    <section>
+        <h2>特徴３：marginとpaddingの有効性</h2>
+        <div class="feature03-outer">
+            <h3>margin：要素の外側の余白</h3>
+            <!-- ブロック要素 -->
+            <p class="block feature03-margin">ブロック要素のpタグ</p>
+            <div class="block feature03-margin">ブロック要素のdivタグ</div>
+
+            <!-- インライン要素 -->
+            <a class="inline feature03-margin" href="">インライン要素のaタグ</a>
+            <span class="inline feature03-margin">インライン要素のspanタグ</span>
+        </div>
+
+        <div class="feature03-outer">
+            <h3>padding：要素の内側の余白</h3>
+            <!-- ブロック要素 -->
+            <p class="block feature03-padding">ブロック要素のpタグ</p>
+            <div class="block feature03-padding">ブロック要素のdivタグ</div>
+
+            <!-- インライン要素 -->
+            <a class="inline feature03-padding" href="">インライン要素のaタグ</a>
+            <span class="inline feature03-padding">インライン要素のspanタグ</span>
+        </div>
+    </section>
+</body>
+
+</html>
